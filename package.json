@@ -10,5 +10,8 @@
   },
   "devDependencies": {
     "@marp-team/marp-cli": "^4.1.1"
+  },
+  "dependencies": {
+    "mermaid": "^11.12.0"
   }
 }
