@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: uncover
+theme: block
 paginate: true
 header: '関西オープンフォーラム2025'
 footer: '三浦広志 (OSMF Japan 代表理事)'
