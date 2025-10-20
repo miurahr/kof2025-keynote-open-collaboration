@@ -9,7 +9,7 @@
     "pdf": "marp slide/index.md --theme theme/slide.css --html --allow-local-files --pdf"
   },
   "devDependencies": {
-    "@marp-team/marp-cli": "^4.1.1"
+    "@marp-team/marp-cli": "^4.2.3"
   },
   "dependencies": {
     "mermaid": "^11.12.0"
