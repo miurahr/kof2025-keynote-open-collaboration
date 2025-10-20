@@ -31,7 +31,7 @@ style: |
 <!-- _paginate: false -->
 
 # オープンでつながる未来
-## ― OSSから始まる協働の広がり
+## ――― OSSから始まる協働の広がり
 
 <br>
 
@@ -47,7 +47,7 @@ style: |
 
 <br>
 
-### **過去**：LinuxとOSMが示した「オープンの力」
+### **過去**：LinuxとOpenStreetMapが示した「オープンの力」
 
 ### **現在**：分散型SNSという新しい波
 
@@ -55,6 +55,18 @@ style: |
 
 ---
 
+##  今日は話さないこと
+
+<br>
+
+### **フィロソフィー**： 「フリー(自由)」 と「オープン」の違い
+
+### **未来への投資**： アカデミア(研究)と教育、産業政策
+
+### **地域の力**： 日本、関西とOSSの未来
+
+
+---
 <!-- _header: '第一部：オープンの力とは何だったのか' -->
 
 ## 伽藍とバザール：FOSSの本質
@@ -88,11 +100,11 @@ style: |
 
 - 既存の巨人とは**異なるニーズ**を見つける
 - 初期は劣っていても、改善を続ける
-- やがて主流市場を奪う
+- やがて主流市場を奪う ex. **スマートフォン Android** 
 
 <br>
 
-**Linuxはメインフレームを駆逐した**
+**Linuxはメインフレーム、UNIXを駆逐し、手の中の世界を二分する**
 
 <br>
 
@@ -112,10 +124,10 @@ style: |
    PCがあれば誰でも開発参加できた
 
 2. **多くの目**  
-   世界中の開発者が貢献
+   世界中の開発者 と **ユーザ** が貢献
 
 3. **ニーズ発見**  
-   安価、自由、カスタマイズ可能
+   個人Web/ゲームサーバ、安価、自由、カスタマイズ可能
 
 <br>
 
@@ -450,19 +462,14 @@ RISC-V + 小型モデル + ファインチューニング
 # ご清聴ありがとうございました
 
 <br>
-<br>
 
 ## 質疑応答
-
-<br>
 
 **三浦広志**  
 一般社団法人オープンストリートマップファウンデーションジャパン 代表理事
 
-<!-- Add this anywhere in your Markdown file -->
-<script type="module">
-  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
-  mermaid.initialize({ startOnLoad: true });
-</script>
-
+Homepage: [osmf.jp](https://www.osmf.jp/)
+LinkedIn: [@miurahr](https://www.linkedin.com/in/miurahr/)
+BlueSky: [@miurahr.bsky.social](https://bsky.app/profile/miurahr.bsky.social)
+Mastodon: [@miurahr@en.osm.town](https://en.osm.town/@miurahr)
 ---
