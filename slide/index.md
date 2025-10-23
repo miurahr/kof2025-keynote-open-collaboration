@@ -358,13 +358,15 @@ Twitter/Facebookという「巨人」への挑戦
             G --> I
             L --> I[インターネット基盤<br>OSSエコシステム]:::result
         end
-        subgraph SNS["分散型SNS の場合"]
+        subgraph SNS["OpenStreetMap の場合"]
             direction TB
-            T[Twitterの周辺<br/>エコシステム]:::giant
-            X[Twitter買収でXへ]:::giant
-            T --> B[連合プロトコル/実験的アプリ]:::open
-            X --> E1
-            B --> E1[BlueSky拡大]:::result
+            G2[GPS/GNSS衛星の民間利用]:::giant
+            S2[SmartPhoneの普及]:::giant
+            S2 --> W2[Wikipedia<br/>分散協業の力]:::open
+            G2 --> W2
+            L2[ライセンスをODbLに変更]:::open
+            W2 --> E1[OpenStreetMapの成功]:::result
+            L2 --> E1
         end
         classDef giant fill:#e74c3c,stroke:#c0392b,stroke-width:3px,color:#fff;
         classDef open fill:#3498db,stroke:#2980b9,stroke-width:2px,color:#fff;
@@ -402,7 +404,7 @@ Twitter/Facebookという「巨人」への挑戦
 
 <!-- _header: '第三部：AI時代 ― オープンの限界と可能性' -->
 
-<!-- TALK: Transformer以降のスケーリング則で「規模=性能」。結果として超資本集約化し、従来の前提（Many Eyes）が崩れた点を説明。 -->
+<!-- TALK: Transformer以降のスケーリング則2022 GPT3で「規模=性能」。結果として超資本集約化し、従来の前提（Many Eyes）が崩れた点を説明。 -->
 ## AI時代の構造変化
 
 #### Linuxとは真逆の構造が生まれた
