@@ -24,7 +24,7 @@ jobs:
       - name: Generate presentation
         run: |
           npm install
-          npm run html
+          marp --html --allow-local-files slide/index.md
       - name: Uploade artifact
         uses: actions/upload-pages-artifact@v3
         with:
