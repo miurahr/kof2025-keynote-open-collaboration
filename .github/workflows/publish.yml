@@ -21,8 +21,6 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: latest
-      - run:
-          apt update && apt install -y pandoc
       - name: Generate presentation
         run: |
           npm install
