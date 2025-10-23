@@ -3,6 +3,8 @@ marp: true
 html: true
 theme: block
 paginate: true
+allow-local-files: true
+size: 16:9
 header: '関西オープンフォーラム2025'
 footer: '三浦広志 (OSMF Japan 代表理事)'
 style: |
@@ -36,6 +38,10 @@ style: |
 <!-- _class: lead -->
 <!-- _paginate: false -->
 
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({ startOnLoad: true });
+</script>
 
 <!-- TALK: 今日は「オープンでつながる未来」。過去・現在・未来の3部構成で、協働可能性に焦点を当てます。自己紹介は簡潔に、仲間づくりの視点で聞いてください。 -->
 # オープンでつながる未来

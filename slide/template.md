@@ -1,25 +1,17 @@
 ---
 theme: uncover
+html: true
+size: 16:9
+author: Hiroshi Miura
+allowLocalFiles: true
 marp: true
 paginate: true
----
-
-# **Hello World**
-
----
-
-# How to write slides
-
-Split pages by horizontal ruler (`---`). It's very simple! :satisfied:
-
-? Foot notes
-
 ---
 
 # Title Page
 
 <script type="module">
-  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
   mermaid.initialize({ startOnLoad: true });
 </script>
 
