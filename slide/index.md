@@ -148,6 +148,21 @@ style: |
 ---
 
 <!-- _header: '第一部：オープンの力とは何だったのか' -->
+<!-- TALK: OSMの概要を簡潔に紹介するスライド。地図埋め込みはご自身で挿入するため、ここではMarkdownで説明とリンクのみを用意します。 -->
+## OpenStreetMap
+
+### OpenStreetMap — 市民が作る地図
+
+- **2004年開始**：市民参加で作られるフリーな地理データ
+- 災害対応や地域プロジェクトでの活用実績が豊富
+- データは誰でも利用可能（オープンデータ） → 企業・行政も利活用
+
+使ってみる： https://www.openstreetmap.org/  
+データ／ドキュメント： https://wiki.openstreetmap.org/
+
+---
+
+<!-- _header: '第一部：オープンの力とは何だったのか' -->
 
 <!-- TALK: OSMは市民参加で地図を作成し震災対応で有用性が確立。データ領域でもオープンが勝てることを示す。 -->
 ## OpenStreetMap：データでも同じことが起きた
@@ -157,13 +172,13 @@ style: |
 <br>
 
 - **2004年開始**：当時、 英国政府の地図データは非オープン
-- 市民が作る、誰もが使える地図
+- 市民が作る、誰もが使える 世界地図 (データ)
 - **震災時の迅速な対応**で価値を証明
 - 現在：企業・政府も支援、社会インフラに成長
-
+ 
 <br>
 
-### ソフトウェアだけでなく、データでもオープンは勝てる
+### ソフトウェアだけでなく、データでもオープンになれる
 
 ---
 
@@ -321,11 +336,11 @@ Twitter/Facebookという「巨人」への挑戦
 
 <!-- _header: '第二部：分散型SNS ― オープンの新しい波' -->
 <!-- TALK: Linux/OSSは、WintelとGitHubを利用してインターネットの基盤になった。 
- 分散SNSは、Twitter社の投資でエコシステムの基盤をつくって、拡大をはじめた。
- オープンハードウエアは、FPGAが簡単に入手できて、大学の研究室レベルで独自のCHIP設計をためせることから、エコシステムができはじめている。
-これらを、巨人の肩にのる、といえるのではないか。-->
+ 分散SNSは、Twitter社の投資でエコシステムの基盤をつくって、拡大をはじめた。-->
 
 ## **巨人の肩に乗る**（基盤を活用）とは
+
+<br>
 
 <div class="mermaid">
     flowchart TB
@@ -333,20 +348,43 @@ Twitter/Facebookという「巨人」への挑戦
             direction TB
             W[Wintel<br/>Windows + Intel PC]:::giant
             G[GitHub<br/>協働基盤]:::giant
-            W --> L[Linux/OSS開発]:::open
-            G --> L
-            L --> I[インターネットの基盤]:::result
+            W --> L[Linux開発]:::open
+            G --> I
+            L --> I[インターネット基盤<br>OSSエコシステム]:::result
         end
         subgraph SNS["分散型SNS の場合"]
             direction TB
-            T[Twitter社の投資<br/>プロトコル開発]:::giant
-            T --> B[Bluesky/AT Protocol]:::open
-            B --> E1[エコシステム拡大]:::result
+            T[Twitterの周辺<br/>エコシステム]:::giant
+            X[Twitter買収でXへ]:::giant
+            T --> B[連合プロトコル/実験的アプリ]:::open
+            X --> E1
+            B --> E1[BlueSky拡大]:::result
         end
+        classDef giant fill:#e74c3c,stroke:#c0392b,stroke-width:3px,color:#fff;
+        classDef open fill:#3498db,stroke:#2980b9,stroke-width:2px,color:#fff;
+        classDef result fill:#2ecc71,stroke:#27ae60,stroke-width:2px,color:#fff;
+</div>
+
+---
+<!-- _header: '第二部：分散型SNS ― オープンの新しい波' -->
+
+<!-- TALK:  オープンハードウエアは、FPGAが簡単に入手できて、大学の研究室レベルで独自のCHIP設計をためせることから、エコシステムができはじめている。
+これらを、巨人の肩にのる、といえるのではないか。-->
+
+## **巨人の肩に乗る**（基盤を活用）とは
+
+<br>
+
+<div class="mermaid">
+    flowchart
         subgraph Hardware["オープンハードウェアの場合"]
-            direction TB
+            direction LR
+            Y[X86/ARMの<br/>エコシステム]:::giant
             F[FPGA技術<br/>設計ツール]:::giant
-            F --> R[RISC-V設計]:::open
+            G[GitHub<br/>協働基盤]:::giant
+            Y --> R[RISC-V<br/>オープンな設計書]:::open
+            G --> R
+            F --> R
             R --> E2[大学研究室レベルで<br/>独自設計]:::result
         end
         classDef giant fill:#e74c3c,stroke:#c0392b,stroke-width:3px,color:#fff;
@@ -381,7 +419,8 @@ Twitter/Facebookという「巨人」への挑戦
 
 <!-- _header: '第三部：AI時代 ― オープンの限界と可能性' -->
 
-<!-- TALK: 基盤モデルは高性能だが超高コスト。個人・小組織は「見るだけ」で参加困難＝Many Eyesが働かない。新しいメインフレーム状況。 -->
+<!-- TALK: 基盤モデルは高性能だが超高コスト。個人・小組織は「見る、使うだけ」で参加困難＝Many Eyesが働かない。新しいメインフレーム状況。 -->
+
 ## 現在のAI：新しい「メインフレーム」
 
 #### Many Eyesが機能しない世界
@@ -409,7 +448,7 @@ Twitter/Facebookという「巨人」への挑戦
 <br>
 
 - モデルは「公開」される（Open Source AI）
-- しかし、**改良・貢献は不可能**
+- しかし、**改良・貢献は実質上は不可能**
 
 <br>
 
@@ -434,7 +473,8 @@ Twitter/Facebookという「巨人」への挑戦
 
 - ゼロから学習する必要はない
 - 比較的低コストで特定能力を追加可能
-- **中国の事例**：オープンソースAIで高性能を実現
+- **事例**：オープンソースAI から派生AIが誕生
+  - LLaMA --> Alpaca/Vicunaなど
 
 <br>
 
@@ -582,31 +622,3 @@ RISC-V + 小型モデル + ファインチューニング
 <i class="fa-brands fa-mastodon"></i> Mastodon: [@miurahr@en.osm.town](https://en.osm.town/@miurahr) [@miurahr@floss.social](https://floss.social/@miurahr)
 
 ---
-
-##  本日のお話の全体マップ
-
-<script type="module">
-  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
-  mermaid.initialize({ startOnLoad: true });
-</script>
-
-<div class="mermaid">
-    flowchart LR
-        subgraph 過去
-            L1[Linux]:::node --> OSM[OpenStreetMap]:::node
-        end
-        subgraph 現在
-            D1[分散型SNS<br/>Mastodon/Bluesky]:::node
-            D2[RISC-V]:::node
-        end
-        subgraph 未来
-            A1[AI時代のオープン]:::node
-        end
-        L1 --> D1
-        OSM --> D1
-        D1 --> A1
-        D2 --> A1
-        classDef node fill:#fff,stroke:#34495e,stroke-width:2px,color:#2c3e50;
-</div>
-
---- 
