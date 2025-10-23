@@ -4,8 +4,6 @@ marp: true
 paginate: true
 ---
 
-![bg right:40% 80%](images/Logo.svg)
-
 # **Hello World**
 
 ---
@@ -18,16 +16,21 @@ Split pages by horizontal ruler (`---`). It's very simple! :satisfied:
 
 ---
 
-# A New Slide!
+# Title Page
 
-<div class="mermaid">
-graph TD;
-    A-->B;
-    A-->C;
-</div>
-
-<!-- Add this anywhere in your Markdown file -->
 <script type="module">
   import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
   mermaid.initialize({ startOnLoad: true });
 </script>
+
+---
+
+# Diagram
+<div class="mermaid">
+  graph LR;
+  a --> b;
+  b --> c;
+  c --> a;
+</div>
+
+---

@@ -1,5 +1,6 @@
 ---
 marp: true
+html: true
 theme: block
 paginate: true
 header: '関西オープンフォーラム2025'
@@ -25,6 +26,11 @@ style: |
   strong {
     color: #e74c3c;
   }
+  .fa-mastodon { color: purple; }
+  .fa-linkedin { color: blue; }
+  .fa-bluesky { color: #1da1f2; }
+  .fa-window-maximize { color: green; }
+  @import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css'
 ---
 
 <!-- _class: lead -->
@@ -33,7 +39,7 @@ style: |
 
 <!-- TALK: 今日は「オープンでつながる未来」。過去・現在・未来の3部構成で、協働可能性に焦点を当てます。自己紹介は簡潔に、仲間づくりの視点で聞いてください。 -->
 # オープンでつながる未来
-## ――― OSSから始まる協働の広がり
+## ― OSSから始まる協働の広がり
 
 <br>
 
@@ -69,12 +75,11 @@ style: |
 
 ### **地域の力**： 日本、関西とOSSの未来
 
-
 ---
 <!-- _header: '第一部：オープンの力とは何だったのか' -->
 
 <!-- TALK: 伽藍（閉鎖・トップダウン）とバザール（オープン・分散）の対比。Many Eyes「多くの目でバグは浅い」を強調。Linux成功の核心。 -->
-## 伽藍とバザール：FOSSの本質
+## 伽藍とバザール：OSSの成功の秘密
 
 #### オープンソースの成功を解き明かす二つのモデル
 
@@ -162,6 +167,22 @@ style: |
 
 ---
 
+## Structure of the OpenStreetMap
+
+<div class="mermaid">
+sequenceDiagram;
+  participant 市民
+  participant OSM
+  participant 企業/行政 as 企業・行政
+  市民->>OSM: データ投稿/更新
+  OSM-->>市民: 地図/ツールを提供
+  企業/行政->>OSM: 支援/利活用
+  OSM-->>企業/行政: 公共インフラとしての地図
+  Note over 市民,企業/行政: 参加が価値を強化し、<br/>価値が更なる参加を呼ぶ
+</div>
+
+---
+
 <!-- _header: '第一部：オープンの力とは何だったのか' -->
 
 <!-- TALK: ここまでの要点を再掲。「低い参入障壁」「多くの目」「別ニーズ」。この3点を覚えてもらう。 -->
@@ -194,8 +215,8 @@ style: |
 
 <br>
 
-- **Bluesky**：1,300万 → 3,000万ユーザー（数ヶ月で2倍超）
-- **Mastodon**：1,000万ユーザー超
+- **Mastodon/Misskey**：1,000万ユーザー超
+- **Bluesky**：1,300万 → 3,000万ユーザー（数ヶ月で倍増）
 
 <br>
 
@@ -208,6 +229,22 @@ Twitter/Facebookという「巨人」への挑戦
 ---
 
 <!-- _header: '第二部：分散型SNS ― オープンの新しい波' -->
+<!-- TALK: -->
+
+## Bluesky(AT Protocol) の狙い
+
+#### Xになる前のTwitterが開発開始した分散型SNS
+
+<br>
+
+1. 集中型の**スケール限界** の解消
+2. **モデレーション地獄** の対処
+3. 発信者の**自由**と運営コストと収益性のバランス
+4. オープン標準による協調と健全な**ビジネス**
+
+---
+
+<!-- _header: '第二部：分散型SNS ― オープンの新しい波' -->
 
 <!-- TALK: 分散型SNSが伸びた要因をLinux/OSMと同じパターンで説明：低参入障壁・多くの目・別ニーズ（プライバシー/自治）。 -->
 ## なぜ成功しているのか？
@@ -216,15 +253,15 @@ Twitter/Facebookという「巨人」への挑戦
 
 <br>
 
-✓ **低い参入障壁**：サーバー運用コストは手頃
+✓ **低い参入障壁**：PDSサーバー運用コストは手頃
 
-✓ **多くの目**：世界中でインスタンス運営、改良
+✓ **多くの目**：世界中でインスタンス運営、UX改良
 
-✓ **別のニーズ**：プライバシー、検閲耐性、自治
+✓ **別のニーズ**：プライバシー、自由、検閲耐性、自治
 
 <br>
 
-### オープンの理念が、再び機能している
+### オープンの理念が、再び機能し(はじめ)ている
 
 ---
 
@@ -239,7 +276,8 @@ Twitter/Facebookという「巨人」への挑戦
 
 - オープンな半導体設計
 - **2030年に市場シェア25%予測**
-- Intel/ARMという巨人への挑戦
+- 台湾から世界へ台頭 
+- Intel/AMD/ARMという巨人への挑戦
 - ニーズ：技術主権、カスタマイズ性、低コスト
 
 <br>
@@ -258,17 +296,63 @@ Twitter/Facebookという「巨人」への挑戦
 <br>
 <br>
 
-1. **巨人の肩に乗る**（基盤を活用）
+1. **参入障壁を下げる**（協働を可能に）
 
-2. **参入障壁を下げる**（協働を可能に）
+2. **ニーズを見つける**（新しい価値）
 
-3. **ニーズを見つける**（性能以外の価値）
-
-4. **多くの目で改善する**
+3. **多くの目で改善する** (イノベーション)
 
 <br>
 
 ### Linux時代の成功法則は、今も生きている
+
+---
+
+<!-- _header: '第二部：分散型SNS ― オープンの新しい波' -->
+<!-- TALK: -->
+
+##  隠れた共通点
+
+<br>
+
+### **巨人の肩に乗る**（基盤を活用）
+
+---
+
+<!-- _header: '第二部：分散型SNS ― オープンの新しい波' -->
+<!-- TALK: Linux/OSSは、WintelとGitHubを利用してインターネットの基盤になった。 
+ 分散SNSは、Twitter社の投資でエコシステムの基盤をつくって、拡大をはじめた。
+ オープンハードウエアは、FPGAが簡単に入手できて、大学の研究室レベルで独自のCHIP設計をためせることから、エコシステムができはじめている。
+これらを、巨人の肩にのる、といえるのではないか。-->
+
+## **巨人の肩に乗る**（基盤を活用）とは
+
+<div class="mermaid">
+    flowchart TB
+        subgraph Linux/OSS["Linux/OSS の場合"]
+            direction TB
+            W[Wintel<br/>Windows + Intel PC]:::giant
+            G[GitHub<br/>協働基盤]:::giant
+            W --> L[Linux/OSS開発]:::open
+            G --> L
+            L --> I[インターネットの基盤]:::result
+        end
+        subgraph SNS["分散型SNS の場合"]
+            direction TB
+            T[Twitter社の投資<br/>プロトコル開発]:::giant
+            T --> B[Bluesky/AT Protocol]:::open
+            B --> E1[エコシステム拡大]:::result
+        end
+        subgraph Hardware["オープンハードウェアの場合"]
+            direction TB
+            F[FPGA技術<br/>設計ツール]:::giant
+            F --> R[RISC-V設計]:::open
+            R --> E2[大学研究室レベルで<br/>独自設計]:::result
+        end
+        classDef giant fill:#e74c3c,stroke:#c0392b,stroke-width:3px,color:#fff;
+        classDef open fill:#3498db,stroke:#2980b9,stroke-width:2px,color:#fff;
+        classDef result fill:#2ecc71,stroke:#27ae60,stroke-width:2px,color:#fff;
+</div>
 
 ---
 
@@ -492,8 +576,37 @@ RISC-V + 小型モデル + ファインチューニング
 **三浦広志**  
 一般社団法人オープンストリートマップファウンデーションジャパン 代表理事
 
-Homepage: [osmf.jp](https://www.osmf.jp/)
-LinkedIn: [@miurahr](https://www.linkedin.com/in/miurahr/)
-BlueSky: [@miurahr.bsky.social](https://bsky.app/profile/miurahr.bsky.social)
-Mastodon: [@miurahr@en.osm.town](https://en.osm.town/@miurahr)
+<i class="fa fa-window-maximize"></i> Homepage: [osmf.jp](https://www.osmf.jp/)
+<i class="fa-brands fa-linkedin"></i> LinkedIn: [@miurahr](https://www.linkedin.com/in/miurahr/)
+<i class="fa-brands fa-bluesky"></i> Bluesky: [@miurahr.bsky.social](https://bsky.app/profile/miurahr.bsky.social)
+<i class="fa-brands fa-mastodon"></i> Mastodon: [@miurahr@en.osm.town](https://en.osm.town/@miurahr) [@miurahr@floss.social](https://floss.social/@miurahr)
+
 ---
+
+##  本日のお話の全体マップ
+
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({ startOnLoad: true });
+</script>
+
+<div class="mermaid">
+    flowchart LR
+        subgraph 過去
+            L1[Linux]:::node --> OSM[OpenStreetMap]:::node
+        end
+        subgraph 現在
+            D1[分散型SNS<br/>Mastodon/Bluesky]:::node
+            D2[RISC-V]:::node
+        end
+        subgraph 未来
+            A1[AI時代のオープン]:::node
+        end
+        L1 --> D1
+        OSM --> D1
+        D1 --> A1
+        D2 --> A1
+        classDef node fill:#fff,stroke:#34495e,stroke-width:2px,color:#2c3e50;
+</div>
+
+--- 
