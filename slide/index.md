@@ -100,7 +100,7 @@ style: |
 ### **"Given enough eyeballs, all bugs are shallow"**
 ### 多くの目があれば、すべてのバグは浅い
 
-<br>
+![bg right:30% 30%](images/Linux_mascot_tux.png)
 
 これがLinuxの成功の秘密
 
@@ -165,6 +165,7 @@ style: |
 
 使ってみる： https://www.openstreetmap.org/  
 データ／ドキュメント： https://wiki.openstreetmap.org/
+![](images/OpenStreetMap%20logo.svg)
 
 ---
 
@@ -182,7 +183,7 @@ style: |
 - **震災時の迅速な対応**で価値を証明
 - 現在：企業・政府も支援、社会インフラに成長
  
-<br>
+![](images/300px-Sinsai_info_logo.png)
 
 ### ソフトウェアだけでなく、データでもオープンになれる
 
@@ -234,16 +235,15 @@ sequenceDiagram;
 
 #### 破壊的イノベーションが再び起きている
 
-<br>
+![](images/wordmark-black-text.svg)
 
 - **Mastodon/Misskey**：1,000万ユーザー超
 - **Bluesky**：1,300万 → 3,000万ユーザー（数ヶ月で倍増）
-
 <br>
+
+![bg right:40% 40%](images/Bluesky_Logo.svg.png)
 
 Twitter/Facebookという「巨人」への挑戦
-
-<br>
 
 ### オープンの第二の波が来ている
 
@@ -262,6 +262,8 @@ Twitter/Facebookという「巨人」への挑戦
 2. **モデレーション地獄** の対処
 3. 発信者の**自由**と運営コストと収益性のバランス
 4. オープン標準による協調と健全な**ビジネス**
+
+![bg right:40% 40%](images/Bluesky_Logo.svg.png)
 
 ---
 
@@ -301,7 +303,7 @@ Twitter/Facebookという「巨人」への挑戦
 - Intel/AMD/ARMという巨人への挑戦
 - ニーズ：技術主権、カスタマイズ性、低コスト
 
-<br>
+![](images/RISC-V_Horizontal_Color.svg)
 
 ### 第三の波：オープンプラットフォーム時代
 
