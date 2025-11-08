@@ -672,3 +672,5 @@ All you need is a Transformer. goto All you need is a GPU. -->
 <i class="fa-brands fa-mastodon"></i> Mastodon: [@miurahr@en.osm.town](https://en.osm.town/@miurahr) [@miurahr@floss.social](https://floss.social/@miurahr)
 
 ---
+
+![height:590px](images/sotmjapan2025.png)
