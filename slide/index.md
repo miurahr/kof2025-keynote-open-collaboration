@@ -58,6 +58,7 @@ style: |
 ---
 
 <!-- 講演者紹介 -->
+<!-- TALK: OSMの紹介はなかで やります -->
 
 ![bg right:40% 50%](images/self-stand.jpg)
 
@@ -69,21 +70,6 @@ style: |
 - 2007年 **OpenStreetMap Japan** たちあげ 
 - 2021年IOWN技術をグローバル普及推進
 - 翻訳支援OSSアプリOmegaTの**開発責任者**
-
----
-
-<!-- OpenStreetMapとは -->
-
-## OpenStreetMapとは
-
-- 自由なランセンスの世界全体の地理データベースを作る
-- オープン協働プロジェクト
-- 世界100万人のボランティア
-- XMLで全世界データ公開
-- オンライン地図公開
-- オフライン地図アプリが多数
-
-![bg right:50% 80%](images/osm-edit.png)
 
 ---
 
@@ -196,6 +182,12 @@ style: |
 使ってみる： https://www.openstreetmap.org/  
 データ／ドキュメント： https://wiki.openstreetmap.org/
 ![](images/OpenStreetMap%20logo.svg)
+
+---
+
+<!-- OpenStreetMapとは -->
+
+![height:580px](images/osm-edit.png)
 
 ---
 
