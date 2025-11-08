@@ -228,7 +228,9 @@ sequenceDiagram;
 
 <!-- _header: '第二部：分散型SNS ― オープンの新しい波' -->
 
-<!-- TALK: 2024-2025で分散型SNSが急伸。Twitter/Facebookという巨人への現実的な挑戦として位置づける。 -->
+<!-- TALK: 2024-2025で分散型SNSが急伸。Twitter/Facebookという巨人への現実的な挑戦として位置づけ。
+Misskeyを知っているかな？ わたしもBlueSkyやMastdonで投稿したりしているので、フォローして。最後紹介。
+-->
 ## 2024-2025年：分散型SNSの急成長
 
 #### 破壊的イノベーションが再び起きている
@@ -312,13 +314,16 @@ INDEXはおもいが、PDSは手頃. UXの改良がはじまっている。Missk
 ### 第三の波：オープンプラットフォーム時代
 
 ---
-<!-- TALK: 台湾だと、こういうのもでている。 -->
+<!-- TALK: 台湾だと、こういうのもでている。8月に台北で開催されたCOSCUP 
+OSCの台湾版。規模はAsia最大級 このタイプのNotePCが人気。
+RISC-Vのモデルも懇親会で自慢。
+-->
 
-## RISC-V 搭載 Note-PC
+## 参考：RISC-V 搭載 Note-PC (台湾で入手可能)
 
 ![](images/deepcomputing-framework-risc-v.png)
 
----
+--- 
 
 <!-- _header: '第二部：分散型SNS ― オープンの新しい波' -->
 
@@ -390,7 +395,7 @@ INDEXはおもいが、PDSは手頃. UXの改良がはじまっている。Missk
 <!-- _header: '第二部：分散型SNS ― オープンの新しい波' -->
 
 <!-- TALK:  オープンハードウエアは、FPGAが簡単に入手できて、大学の研究室レベルで独自のCHIP設計をためせることから、エコシステムができはじめている。
-これらを、巨人の肩にのる、といえるのではないか。-->
+これらを、巨人の肩にのる、といえる。-->
 
 ## **巨人の肩に乗る**（基盤を活用）とは
 
@@ -417,7 +422,8 @@ INDEXはおもいが、PDSは手頃. UXの改良がはじまっている。Missk
 
 <!-- _header: '第三部：AI時代 ― オープンの限界と可能性' -->
 
-<!-- TALK: Transformer以降のスケーリング則2022 GPT3で「規模=性能」。結果として超資本集約化し、従来の前提（Many Eyes）が崩れた点を説明。 -->
+<!-- TALK: Transformer以降のスケーリング則2022 GPT3で「規模=性能」。結果として超資本集約化し、従来の前提（Many Eyes）が崩れた点を説明。
+All you need is a Transformer. goto All you need is a GPU. -->
 ## AI時代の構造変化
 
 #### Linuxとは真逆の構造が生まれた
@@ -620,16 +626,18 @@ INDEXはおもいが、PDSは手頃. UXの改良がはじまっている。Missk
 <!-- _class: lead -->
 <!-- _paginate: false -->
 
-<!-- TALK: ご清聴のお礼。ここからは皆さんの現場に引きつけて議論したいと促す。連絡先とSNSを案内。 -->
+<!-- TALK: ご清聴のお礼。ここからは皆さんの現場に引きつけて議論したいと促す。連絡先とSNSを案内。
+ 質疑応答へ。関心分野（フィロソフィー／教育・政策／地域の力等）も
+-->
 # ご清聴ありがとうございました
+
+![bg right:30% 50%](images/qrcode-url.png)
 
 <br>
 
-<!-- TALK: 質疑応答へ。関心分野（フィロソフィー／教育・政策／地域の力等）はここで深掘り可能と案内。 -->
 ## 質疑応答
 
-**三浦広志**  
-一般社団法人オープンストリートマップファウンデーションジャパン 代表理事
+**Reach me from here!**  
 
 <i class="fa fa-window-maximize"></i> Homepage: [osmf.jp](https://www.osmf.jp/)
 <i class="fa-brands fa-linkedin"></i> LinkedIn: [@miurahr](https://www.linkedin.com/in/miurahr/)
