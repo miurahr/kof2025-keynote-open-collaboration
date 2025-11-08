@@ -210,8 +210,8 @@ style: |
 - 市民が作る、誰もが使える 世界地図 (データ)
 - **震災時の迅速な対応**で価値を証明
 - 現在：企業・政府も支援、社会インフラに成長
- 
-![](images/300px-Sinsai_info_logo.png)![](images/humanitarian_openstreetmap_team_logo.jpeg)
+
+![](images/300px-Sinsai_info_logo.png)　![](images/osm-hot-logo.png)
 
 ### ソフトウェアだけでなく、データでもオープンになれる
 
